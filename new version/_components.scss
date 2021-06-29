@@ -1,0 +1,164 @@
+/*navbar stylings*/
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-black;
+  padding: 1rem 8rem;
+  position: sticky;
+  top: 0;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#navbar li a {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+#navbar li a:hover {
+  background-color: $color-highlight;
+  color: $color-black;
+  font-weight: bold;
+}
+
+/* Main page content*/
+#start {
+  position: absolute;
+  width: auto;
+  height: 234px;
+  left: 60px;
+  top: 410px;
+  font-size: 72px;
+  line-height: 94px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+/*Projects*/
+#Projects {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-black;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+#project-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 1080px;
+}
+
+#project-items img {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  border: 8px solid transparent;
+  display: inline-block;
+  border-radius: 20px;
+  opacity: 0.2;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#project-items img:hover {
+  border-color: $color-highlight;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.pro {
+  text-align: center;
+  width: auto;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: 3px;
+}
+
+.pro p {
+  font-size: 30px;
+  letter-spacing: 3px;
+  left: 60px;
+}
+
+/* About me*/
+#about-me {
+  background-color: $color-black;
+  padding: 20px;
+  text-align: center;
+}
+
+.me {
+  left: 60px;
+  font-size: 72px;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+
+.about-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about-text p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+/*Footer*/
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: $color-black;
+}
+
+.connect {
+  font-size: 72px;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sign-off {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$font-body: "poppins", sans-serif;
+
+$color-white: white;
+$color-black: #000000;
+$color-highlight: #f9004d;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-white;
+}
+
+a:link,
+a:visited {
+    text-decoration:none;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/moon-1859616_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+span{
+    color: $color-highlight;
+}
+
